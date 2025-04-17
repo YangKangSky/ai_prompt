@@ -1,0 +1,53 @@
+---
+description: 生成git message
+globs: 
+alwaysApply: false
+---
+
+# Git提交规范
+
+## Git commit message约定
+提交消息的结构应如下：
+
+```
+<JIRA ID>:<description>
+
+Reason for Change:
+ - <description>
+
+Risks:
+ - <description>
+
+Test Procedure:
+ - <description>
+
+Signed off by: <author>@skyworth.com
+
+```
+
+ - 生成git message时忽略文件属性的变更
+
+## 分支管理
+- main/master:主分支，保持稳定可发布状态
+- dev:开发分支，包含最新开发特性
+
+
+## 重要原则
+- **重要**:不要自动提交 qit 代码，除非有明确的提示
+- 提交前确保代码通过所有测试
+- 保持提交信息简洁明了，描述清楚变更内容
+- 避免大型提交，尽量将变更分解为小的、相关的提交
+
+
+
+
+
+
+
+
+
+
+
+
+
+
